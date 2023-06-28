@@ -1,0 +1,114 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1555588746-13edde80e4a1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHdlYXRoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    font-family: 'Georama', sans-serif;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+input{
+    background-color: transparent;
+    border: 2px solid #f7b502;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #fff67d;
+    text-align: center;
+    font-weight: 300;
+
+}
+
+input:hover{
+    border: 2px solid #067e60;
+    cursor: pointer;
+    background-color: rgba(1, 34, 78, 0.4);
+}
+
+::placeholder {
+    color: #fff;
+}
+
+:-ms-input-placeholder {
+    color: #fff;
+}
+
+::-ms-input-placeholder {
+    color: #fff;
+}
+::-webkit-input-placeholder {
+    color: #fff;
+}
+
+#when-where{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#city{
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 40px 0px 15px 0px;
+}
+
+#date{
+    color:  #0a665a;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+#now{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#temperature{
+    color: #fff;
+    font-size: 110px;
+    font-weight: bold;
+    text-shadow: 5px 5px 0px rgba(0, 20, 50, 0.7);
+    margin: 10px 0px 0px 0px;
+}
+
+#feelsLike{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 0px 0px 5px rgb(0, 20, 50);
+}
+
+#conditions, #variation, #windDegree, #humidity{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+    text-shadow: 0px 0px 5px rgb(0, 20, 50);
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+}
+
+.home{
+    margin: 5px 5px 30px 5px;
+}
